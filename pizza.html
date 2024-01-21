@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="pt - BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Pizza</title>
+</head>
+<body>
+
+    <header class="header">
+        <img src="logos/logo.png" alt="logo" class="img-logo">
+        <div class="conteiner-filtrar">
+            <input type="text" placeholder="Filtrar Produtos">
+            <button class="btn-filtrar">Filtrar</button>
+        </div>
+        <button class="btn-carrinho"><img src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+        
+        <section id="carrinho">
+            <button class="btn-fechar"><img src="logos/fechar (1).png" alt=""></button>
+            <span class="titulo-carrinho">Carrinho de Compras</span>
+            <div id="sacola"></div>
+            <div class="taxa-entrega">
+                <div class="conteiner-limite">
+                  <span>Limite Total:</span>
+                  <span>$0,00</span>
+                </div>
+                <div class="conteiner-taxa">
+                    <span>Taxa de Entrega:</span>
+                    <span>$2,00</span>
+                </div>
+                <div class="conteiner-total">
+                    <span>Total:</span>
+                    <span>$0,00</span>
+                </div>
+                <button class="btn-comprar">Finalizar Compra</button>
+              </div>
+            </div>
+            
+          </section>
+    </header>
+    <nav class="menu">
+        <a href="index.html"><img class="img1" src="logos/btnBurguer.png" alt="burguer">Burguer</a>
+        <a href="pizza.html"><img class="img1" src="logos/pizza.png" alt="pizza">Pizza</a>
+        <a href="bebidas.html"><img class="img1" src="logos/refrigerante.png" alt="bebida">Bebidas</a>
+        <a href="doces.html"><img class="img1" src="logos/bolo.png" alt="bolo">Doces</a>
+        <a href="fritas.html"><img class="img1" src="logos/batatas-fritas.png" alt="batata">Fritas</a>
+    </nav>
+
+    <main class="cardapio">
+
+        <div class="cardapio-2">
+            <div class="pizza">
+                <div class="cont-pizza">
+                    <img class="img-pizza" src="img.pizza/pizza1.png" alt="">
+                </div>
+                <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio">
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio">
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" checked="">
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio">
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio">
+                    <label title="text" for="star1"></label>
+                  </div>
+                <p class="valor">R$ 50,00</p>
+                <p>Pizza Bacon</p>
+                <div class="conteiner-btns">
+                    <button><img class="img-geral" src="logos/olho-com-cilio.png" alt="olho"></button>
+                    <button onclick="addCartPizza('pizza-bacon')"><img class="img-geral" src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="pizza">
+                <div class="cont-pizza">
+                    <img class="img-pizza" src="img.pizza/pizza1.png" alt="">
+                </div>
+
+                <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio">
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio">
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" checked="">
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio">
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio">
+                    <label title="text" for="star1"></label>
+                  </div>
+                <p class="valor">R$ 50,00</p>
+                <p>Pizza Bacon</p>
+                <div class="conteiner-btns">
+                    <button><img class="img-geral" src="logos/olho-com-cilio.png" alt="olho"></button>
+                    <button onclick="addCartPizza('pizza-bacon')"><img class="img-geral" src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="pizza">
+                <div class="cont-pizza">
+                    <img class="img-pizza2" src="img.pizza/pizza3.png" alt="">
+                </div>
+
+                <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio">
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio">
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" checked="">
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio">
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio">
+                    <label title="text" for="star1"></label>
+                  </div>
+                <p class="valor">R$ 50,00</p>
+                <p>Pizza Bacon</p>
+                <div class="conteiner-btns">
+                    <button><img class="img-geral" src="logos/olho-com-cilio.png" alt="olho"></button>
+                    <button onclick="addCartPizza('pizza-bacon')"><img class="img-geral" src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="pizza">
+                <div class="cont-pizza">
+                    <img class="img-pizza3" src="img.pizza/pizza4.png" alt="">
+                </div>
+                <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio">
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio">
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" checked="">
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio">
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio">
+                    <label title="text" for="star1"></label>
+                  </div>
+                <p class="valor">R$ 50,00</p>
+                <p>Pizza Bacon</p>
+                <div class="conteiner-btns">
+                    <button><img class="img-geral" src="logos/olho-com-cilio.png" alt="olho"></button>
+                    <button onclick="addCartPizza('pizza-bacon')"><img class="img-geral" src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="pizza">
+                <div class="cont-pizza">
+                    <img class="img-pizza" src="img.pizza/pizza1.png" alt="">
+                </div>
+                <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio">
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio">
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" checked="">
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio">
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio">
+                    <label title="text" for="star1"></label>
+                  </div>
+                <p class="valor">R$ 50,00</p>
+                <p>Pizza Bacon</p>
+                <div class="conteiner-btns">
+                    <button><img class="img-geral" src="logos/olho-com-cilio.png" alt="olho"></button>
+                    <button onclick="addCartPizza('pizza-bacon')"><img class="img-geral" src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="pizza">
+                <div class="cont-pizza">
+                    <img class="img-pizza3" src="img.pizza/pizza6.png" alt="">
+                </div>
+                <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio">
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio">
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" checked="">
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio">
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio">
+                    <label title="text" for="star1"></label>
+                  </div>
+                <p class="valor">R$ 50,00</p>
+                <p>Pizza Bacon</p>
+                <div class="conteiner-btns">
+                    <button><img class="img-geral" src="logos/olho-com-cilio.png" alt="olho"></button>
+                    <button onclick="addCartPizza('pizza-bacon')"><img class="img-geral" src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="pizza">
+                <div class="cont-pizza">
+                    <img class="img-pizza" src="img.pizza/pizza1.png" alt="">
+                </div>
+                <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio">
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio">
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" checked="">
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio">
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio">
+                    <label title="text" for="star1"></label>
+                  </div>
+                <p class="valor">R$ 50,00</p>
+                <p>Pizza Bacon</p>
+                <div class="conteiner-btns">
+                    <button><img class="img-geral" src="logos/olho-com-cilio.png" alt="olho"></button>
+                    <button onclick="addCartPizza('pizza-bacon')"><img class="img-geral" src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+                </div>
+            </div>
+
+            <div class="pizza">
+                <div class="cont-pizza">
+                    <img class="img-pizza" src="img.pizza/pizza1.png" alt="">
+                </div>
+                <div class="rating">
+                    <input value="5" name="rate" id="star5" type="radio">
+                    <label title="text" for="star5"></label>
+                    <input value="4" name="rate" id="star4" type="radio">
+                    <label title="text" for="star4"></label>
+                    <input value="3" name="rate" id="star3" type="radio" checked="">
+                    <label title="text" for="star3"></label>
+                    <input value="2" name="rate" id="star2" type="radio">
+                    <label title="text" for="star2"></label>
+                    <input value="1" name="rate" id="star1" type="radio">
+                    <label title="text" for="star1"></label>
+                  </div>
+                <p class="valor">R$ 50,00</p>
+                <p>Pizza Bacon</p>
+                <div class="conteiner-btns">
+                    <button><img class="img-geral" src="logos/olho-com-cilio.png" alt="olho"></button>
+                    <button onclick="addCartPizza('pizza-bacon')"><img class="img-geral" src="logos/carrinho-de-compras-de-design-xadrez.png" alt=""></button>
+                </div>
+            </div>
+    </main>
+
+    <section class="produtos-carrinho">
+        <div id="DuploCarne">
+          <div class="cart-food">
+              <img class="imgBurgue-carrinho" src="img.hamburgue/burgue1.png" alt="">
+              <div class="paragrafos-carrinho">
+                  <p class="nome">Duplo Carne</p>
+                  <p class="gramas">500g</p>
+              </div>
+          </div>
+          <div class="conteiner-sacola">
+              <span id="preco">50,00R$</span>
+              <div class="controlador">
+                  <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+                  <input type="number" name="" id="number" value="0">
+                  <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+              </div>
+          </div>
+  </div>
+  
+  
+  <div id="X-salada">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="img.hamburgue/burgue2.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">X-Salada</p>
+            <p class="gramas">500g</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">30,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  <div id="Mini-salada">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="img.hamburgue/burgue2.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Mini-Salada</p>
+            <p class="gramas">500g</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">20,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  <div id="pizza-bacon">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="img.pizza/pizza1.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Pizza Bacon</p>
+            <p class="gramas">500g</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">50,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  <div id="cerveja">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="bebidas/bebida1.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Cerveja</p>
+            <p class="gramas">500ml</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">50,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  <div id="drink">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="bebidas/bebida5.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Drink</p>
+            <p class="gramas">500ml</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">50,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  
+  <div id="Refrigerante">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="bebidas/bebida8.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Refrigerante</p>
+            <p class="gramas">500ml</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">50,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  
+  <div id="doce">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="doces/doce1.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Doce</p>
+            <p class="gramas">500g</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">50,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  <div id="doce2">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="doces/doce2.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Doce</p>
+            <p class="gramas">500g</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">50,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  <div id="batata-frita">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="fritas/fritas1.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Batata Frita</p>
+            <p class="gramas">500g</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">30,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+  
+  <div id="batata-frita">
+    <div class="cart-food">
+        <img class="imgBurgue-carrinho" src="fritas/fritas2.png" alt="">
+        <div class="paragrafos-carrinho">
+            <p class="nome">Batata Frita</p>
+            <p class="gramas">500g</p>
+        </div>
+    </div>
+    <div class="conteiner-sacola">
+        <span id="preco">30,00R$</span>
+        <div class="controlador">
+            <button class="btn-menos"><img src="logos/operacoes-de-calculo-menos-sinal.png" alt=""></button>
+            <input type="number" name="" id="number" value="0">
+            <button class="btn-mais"><img src="logos/botao-de-simbolo-de-mais.png" alt=""></button>
+        </div>
+    </div>
+  </div>
+  
+      </section>
+  
+
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

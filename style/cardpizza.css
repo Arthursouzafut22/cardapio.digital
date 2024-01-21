@@ -1,0 +1,39 @@
+
+
+.img-pizza {
+    margin: 0 auto;
+    max-width: 370px;
+    display: block;
+    width: 100%;
+    align-self: center;
+}
+
+.img-pizza2 {
+    max-width: 250px;
+    width: 100%;
+}
+
+.img-pizza3 {
+    max-width:218px;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+
+.pizza {
+    max-width: 270px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 13px;
+    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+    animation: food .50s forwards;
+}
+
+.pizza p {
+    font-size: 18px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 5px;
+}
+

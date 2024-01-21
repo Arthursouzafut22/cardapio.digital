@@ -1,0 +1,123 @@
+.produtos-carrinho {
+   display: none;
+}
+
+#DuploCarne {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 15px auto;
+    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+    animation: animar .50s forwards;
+ }
+ 
+ #X-salada {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 15px auto;
+    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+    animation: animar .50s forwards;
+ }
+ 
+ #Mini-salada {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 15px auto;
+    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+    animation: animar .50s forwards;
+ }
+ 
+ #pizza-bacon {
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 300px;
+    margin: 15px auto;
+    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+    animation: animar .50s forwards;
+ }
+
+ #cerveja {
+   padding: 10px;
+   border-radius: 10px;
+   max-width: 300px;
+   margin: 15px auto;
+   box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+   animation: animar .50s forwards;
+ }
+
+ #drink {
+   padding: 10px;
+   border-radius: 10px;
+   max-width: 300px;
+   margin: 15px auto;
+   box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+   animation: animar .50s forwards;
+ }
+
+ #Refrigerante {
+   padding: 10px;
+   border-radius: 10px;
+   max-width: 300px;
+   margin: 15px auto;
+   box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+   animation: animar .50s;
+ }
+
+ #doce {
+   padding: 10px;
+   border-radius: 10px;
+   max-width: 300px;
+   margin: 15px auto;
+   box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+   animation:  animar .50s forwards;
+ }
+
+ #doce2 {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 15px auto;
+  box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+  animation:  animar .50s forwards;
+}
+
+ #batata-frita {
+   padding: 10px;
+   border-radius: 10px;
+   max-width: 300px;
+   margin: 15px auto;
+   box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+   animation: animar .50s forwards;
+ }
+
+ #batata-frita2 {
+  padding: 10px;
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 15px auto;
+  box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+  animation: animar .50s forwards;
+}
+
+  div.ativo {
+   padding: 10px;
+   border-radius: 10px;
+   max-width: 300px;
+   margin: 15px auto;
+   box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+   animation: animar .50s forwards;
+ }
+
+ @keyframes animar {
+  from {
+    opacity: 0;
+    transform: translate3d(0,40px,0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+ }
+

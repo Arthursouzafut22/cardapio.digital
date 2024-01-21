@@ -1,0 +1,95 @@
+
+
+.header {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.5rem 1.25rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.img-logo {
+    max-width: 120px;
+    display: block;
+    margin: 0;
+}
+
+.conteiner-filtrar {
+    max-width: 650px;
+    display: flex;
+    align-items: center;
+}
+
+.conteiner-filtrar input {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.25rem;
+    padding: 15px 50px;
+    margin-right: 10px;
+    max-width: 350px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+
+
+}
+
+.btn-filtrar {
+    font-size: 1.125rem;
+    padding: 1rem 2.1875rem;
+    color: white;
+    background-color: #f5b841;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    max-width: 250px;
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.btn-carrinho {
+    border: none;
+    outline: none;
+    padding: 0.625rem 2.1875rem;
+    background-color: #f5b841;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-carrinho img {
+    max-width: 40px;
+    display: block;
+}
+
+.menu {
+    max-width: 1300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto 0px auto;
+    gap: 35px;
+}
+.menu a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding: 0.5rem 0.75rem;
+    border-radius: 10px;
+    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+}
+
+.img1 {
+    max-width: 50px;
+    display: block;
+    margin-right: 7px;
+    padding: 0;
+}
