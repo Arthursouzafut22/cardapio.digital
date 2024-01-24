@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "image": "img.pizza/pizza2.png",
+        "tipo": "Pizza",
+        "nome": "Pizza-Fitnes",
+        "preco":"45,00R$"
+    },
+    {
+        "id": 2,
+        "image": "img.pizza/pizza2.png",
+        "tipo": "Pizza",
+        "nome": "Pizza-Fitnes",
+        "preco":"45,00R$"
+    },
+    {
+        "id": 3,
+        "image": "img.pizza/pizza2.png",
+        "tipo": "Pizza",
+        "nome": "Pizza-Fitnes",
+        "preco":"45,00R$"
+    },
+    {
+        "id": 4,
+        "image": "img.pizza/pizza10.png",
+        "tipo": "Pizza",
+        "nome": "Pizza-Bacon",
+        "preco":"45,00R$"
+    },
+    {
+        "id": 5,
+        "image": "img.pizza/pizza10.png",
+        "tipo": "Pizza",
+        "nome": "Pizza-Bacon",
+        "preco":"45,00R$"
+    },
+    {
+        "id": 6,
+        "image": "img.pizza/pizza2.png",
+        "tipo": "Pizza",
+        "nome": "Pizza-Fitnes",
+        "preco":"45,00R$"
+    },
+    {
+        "id": 7,
+        "image": "img.pizza/pizza10.png",
+        "tipo": "Pizza",
+        "nome": "Pizza-Bacon",
+        "preco":"45,00R$"
+    },
+    {
+        "id": 8,
+        "image": "img.pizza/pizza10.png",
+        "tipo": "Pizza",
+        "nome": "Pizza-Bacon",
+        "preco":"45,00R$"
+    }
+]

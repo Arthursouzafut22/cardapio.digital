@@ -1,0 +1,59 @@
+
+[ 
+    {
+        "id":1,
+        "image": "img.hamburgue/burgue1.png",
+        "tipo": "Hamburgue",
+        "nome": "Duplo-carne",
+        "preco":"22,00R$"
+    },
+    {
+        "id":2,
+        "image": "img.hamburgue/burgue2.png",
+        "tipo": "Hamburgue",
+        "nome": "X-salada",
+        "preco":"22,00R$"
+    },
+    {
+        "id":3,
+        "image": "img.hamburgue/burgue12.png",
+        "tipo": "Hamburgue",
+        "nome": "Mini-salada",
+        "preco":"22,00R$"
+    },
+    {
+        "id":4,
+        "image": "img.hamburgue/burgue5.png",
+        "tipo": "Hamburgue",
+        "nome": "X-Bacon",
+        "preco":"25,00R$"
+    },
+    {
+        "id":5,
+        "image": "img.hamburgue/burgue12.png",
+        "tipo": "Hamburgue",
+        "nome": "X-tudo",
+        "preco":"25,00R$"
+    },
+    {
+        "id":6,
+        "image": "img.hamburgue/burgue1.png",
+        "tipo": "Hamburgue",
+        "nome": "Duplo-carne",
+        "preco":"25,00R$"
+    },
+    {
+        "id":7,
+        "image": "img.hamburgue/burgue1.png",
+        "tipo": "Hamburgue",
+        "nome": "Duplo-carne",
+        "preco":"12,00R$"
+    },
+    {
+        "id":8,
+        "image": "img.hamburgue/burgue12.png",
+        "tipo": "Hamburgue",
+        "nome": "Mini-salada",
+        "preco":"12,00R$"
+    }
+]

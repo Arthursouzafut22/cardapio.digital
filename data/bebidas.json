@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "../bebidas/bebida3.png",
+    "tipo": "bebidas",
+    "nome": "Cerveja",
+    "preco": "15,00R$"
+  },
+  {
+    "id": 2,
+    "image": "../bebidas/image-removebg-preview (16).png",
+    "tipo": "bebidas",
+    "nome": "Coca-cola",
+    "preco":"15,00R$"
+  },
+  {
+    "id": 3,
+    "image": "../bebidas/bebida3.png",
+    "tipo": "bebidas",
+    "nome": "Cerveja",
+    "preco":"15,00R$"
+  },
+  {
+    "id": 4,
+    "image": "bebidas/bebida6.png",
+    "tipo": "bebidas",
+    "nome": "Drink",
+    "preco":"18,00R$"
+  },
+  {
+    "id": 5,
+    "image": "../bebidas/bebida3.png",
+    "tipo": "bebidas",
+    "nome": "Cerveja",
+    "preco":"18,00R$"
+  },
+  {
+    "id": 6,
+    "image": "bebidas/bebida6.png",
+    "tipo": "bebidas",
+    "nome": "Drink",
+    "preco":"15,00R$"
+  },
+  {
+    "id": 7,
+    "image": "../bebidas/image-removebg-preview (15).png",
+    "tipo": "bebidas",
+    "nome": "Drink",
+    "preco":"15,00R$"
+  },
+  {
+    "id": 8,
+    "image": "../bebidas/image-removebg-preview (16).png",
+    "tipo": "bebidas",
+    "nome": "Coca-cola",
+    "preco":"15,00R$"
+  }
+]

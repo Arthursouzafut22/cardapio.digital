@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "image": "fritas/fritas1.png",
+        "tipo": "Fritas",
+        "nome": "Batata-frita",
+        "preco":"20,00R$"
+    },
+    {
+        "id": 2,
+        "image": "fritas/fritas2.png",
+        "tipo": "Fritas",
+        "nome": "Batata-frita",
+        "preco":"20,00R$"
+    },
+    {
+        "id": 3,
+        "image": "fritas/fritas2.png",
+        "tipo": "Fritas",
+        "nome": "Batata-frita",
+        "preco":"20,00R$"
+    },
+    {
+        "id": 4,
+        "image": "fritas/fritas1.png",
+        "tipo": "Fritas",
+        "nome": "Batata-frita",
+        "preco":"20,00R$"
+    },
+    {
+        "id": 5,
+        "image": "fritas/fritas2.png",
+        "tipo": "Fritas",
+        "nome": "Batata-frita",
+        "preco":"20,00R$"
+    },
+    {
+        "id": 6,
+        "image": "fritas/fritas1.png",
+        "tipo": "Fritas",
+        "nome": "Batata-frita",
+        "preco":"20,00R$"
+    },
+    {
+        "id": 7,
+        "image": "fritas/fritas2.png",
+        "tipo": "Fritas",
+        "nome": "Batata-frita",
+        "preco":"20,00R$"
+    },
+    {
+        "id": 8,
+        "image": "fritas/fritas1.png",
+        "tipo": "Fritas",
+        "nome": "Batata-frita",
+        "preco":"20,00R$"
+    }
+]

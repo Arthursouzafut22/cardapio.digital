@@ -1,18 +1,22 @@
 
 .cardapio {
-    max-width: 1300px;
+    max-width: 1350px;
     width: 100%;
     margin: 35px auto;
     position: relative;
+    overflow: hidden;
 }
 
 .cardapio-2 {
     display: grid;
+    max-width: 1300px;
+    width: 100%;
     grid-template-columns: repeat(auto-fit,minmax(250px, auto));
     justify-content: center;
-    gap: 40px;
+    gap: 35px;
     align-items: center;
-   
+    align-content: center;
+    margin: 0 auto;
 }
 
 @keyframes food {
@@ -26,14 +30,13 @@
     }
 }
 
-
 .hamburguer {
-    max-width: 300px;
-    width: 100%;
+    max-width: 100%;
     padding: 0 0.5rem;
     border-radius: 13px;
     box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
     animation: food .50s forwards;
+    margin: 0 auto;
 }
 
 .hamburguer p {
@@ -42,47 +45,40 @@
     font-family: 'Poppins', sans-serif;
     margin: 5px;
 }
-
 .valor {
     font-weight: bold;
     font-size: 1.125rem;
 }
-
 .img-burguer {
     max-width: 250px;
     width: 100%;
     display: block;
     margin: 0 auto;
 }
-
 .conteiner-btns {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    padding-bottom: 9px;
+    padding-bottom: 0.5625rem;
 }
-
 .conteiner-btns button {
     display: block;
     width: 90px;
-    padding: 4px 15px;
+    padding: 0.25rem 0.9375rem;
     border-radius: 10px;
     cursor: pointer;
     border: none;
     outline: none;
     background-color: #f5b841;
 }
-
 .img-geral {
     max-width: 30px;
 }
-
 .cont-burgue {
     height: 230px;
     margin: 0 auto;
 }
-
 .rating {
     display: flex;
     justify-content: center;
@@ -93,23 +89,19 @@
     margin-top: 0px;
     margin: 0 auto;
 }
-
 .rating:not(:checked) > input {
     position: absolute;
     appearance: none;
   }
-  
   .rating:not(:checked) > label {
     float: right;
     cursor: pointer;
     font-size: 1.875rem;
     color: #f5b841;
   }
-
   .rating:not(:checked) > label:before {
     content: '★';
   }
-
   #load {
     position: absolute;
     margin: 0 auto;
@@ -125,11 +117,35 @@
     display: none;
  }
 
-
-
 @keyframes load {
     from {
         transform: rotate(360deg);
+    }
+}
+
+@media (max-width:480px) {
+    .hamburguer {
+        height: auto;
+    }
+    .img-burguer {
+        max-width: 200px !important;
+        margin: 0;
+    }
+    .cont-burgue {
+        height: 185px;
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .hamburguer {
+        height: auto;
+    }
+    .img-burguer {
+        max-width: 200px !important;
+        margin: 0;
+    }
+    .cont-burgue {
+        height: 185px;
     }
 }
 

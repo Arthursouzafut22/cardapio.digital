@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "image": "../doces/doce1.png",
+    "tipo": "doce",
+    "nome": "Doce",
+    "preco":"10,00R$"
+  },
+  {
+    "id": 2,
+    "image": "../doces/doce2.png",
+    "tipo": "doce",
+    "nome": "Doce",
+    "preco":"10,00R$"
+  },
+  {
+    "id": 3,
+    "image": "../doces/doce3.png",
+    "tipo": "doce",
+    "nome": "Doce",
+    "preco":"10,00R$"
+  },
+  {
+    "id": 4,
+    "image": "../doces/doce4.png",
+    "tipo": "doce",
+    "nome": "Doce",
+    "preco":"10,00R$"
+  },
+  {
+    "id": 5,
+    "image": "../doces/doce5.png",
+    "tipo": "doce",
+    "nome": "Doce",
+    "preco":"10,00R$"
+  },
+  {
+    "id": 2,
+    "image": "../doces/doce2.png",
+    "tipo": "doce",
+    "nome": "Doce",
+    "preco":"10,00R$"
+  },
+  {
+    "id": 3,
+    "image": "../doces/doce3.png",
+    "tipo": "doce",
+    "nome": "Doce",
+    "preco":"10,00R$"
+  },
+  {
+    "id": 2,
+    "image": "../doces/doce2.png",
+    "tipo": "doce",
+    "nome": "Doce",
+    "preco":"10,00R$"
+  }
+]

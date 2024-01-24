@@ -1,8 +1,6 @@
 
-
 .header {
     max-width: 1300px;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -10,31 +8,29 @@
     margin: 0 auto;
     position: relative;
 }
-
 .img-logo {
     max-width: 120px;
+    width: 100%;
     display: block;
     margin: 0;
 }
-
 .conteiner-filtrar {
     max-width: 650px;
+    width: 100%;
     display: flex;
     align-items: center;
 }
-
 .conteiner-filtrar input {
     font-family: 'Poppins', sans-serif;
     font-size: 1.25rem;
     padding: 15px 50px;
+    width: 100%;
     margin-right: 10px;
     max-width: 350px;
     border-radius: 10px;
     border: none;
     outline: none;
     box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
-
-
 }
 
 .btn-filtrar {
@@ -47,12 +43,10 @@
     border: none;
     outline: none;
     cursor: pointer;
-    max-width: 250px;
-    width: 100%;
+    max-width: 230px;
     border-radius: 10px;
     display: block;
 }
-
 .btn-carrinho {
     border: none;
     outline: none;
@@ -61,35 +55,149 @@
     border-radius: 10px;
     cursor: pointer;
 }
-
 .btn-carrinho img {
     max-width: 40px;
     display: block;
 }
-
 .menu {
     max-width: 1300px;
     width: 100%;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin: 20px auto 0px auto;
     gap: 35px;
 }
-.menu a {
+.menu button {
     display: flex;
     align-items: center;
-    text-decoration: none;
+    font-size: 18px;
     font-family: 'Poppins', sans-serif;
+    font-weight: bold;
     color: black;
+    background-color: transparent;
     padding: 0.5rem 0.75rem;
+    border: none;
+    outline: none;
     border-radius: 10px;
     box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+    cursor: pointer;
 }
-
 .img1 {
     max-width: 50px;
     display: block;
     margin-right: 7px;
     padding: 0;
+}
+
+@media (max-width:480px) {
+    .img-logo {
+        width: 80px;
+    }
+    .conteiner-filtrar input {
+        display: none;
+    }
+    .btn-filtrar {
+        display: none;
+    }
+    .btn-carrinho {
+        max-width: 70px;
+        font-size: 0.9375rem;
+        padding: 0.75rem;
+    }
+    .btn-carrinho img {
+        max-width: 25px;
+    }
+    .menu {
+        gap: 20px;
+    }
+    .menu button {
+        padding: 0.3125rem 0.625rem;
+    }
+    .img1 {
+        max-width: 40px;
+    }
+    #carrinho {     
+    overflow: hidden;
+    left: 5%;
+    width: 90% !important;
+    height: auto;
+    bottom: -100px;
+    }
+    #carrinho span {
+        font-size: 20px;
+    }
+    #sacola {
+        overflow-x: hidden;
+    }
+    .btn-fechar {
+        margin-top: 20px;
+    }
+    .taxa-entrega {
+        width: 80% !important;
+    }
+}
+
+@media (min-width:481px) and (max-width:767px) {
+    .img-logo {
+        width: 80px;
+    }
+    .conteiner-filtrar input {
+        display: none;
+    }
+    .btn-filtrar {
+        display: none;
+    }
+    .btn-carrinho {
+        max-width: 70px;
+        font-size: 0.9375rem;
+        padding: 0.75rem;
+        margin-right: 20px;
+    }
+    .btn-carrinho img {
+        max-width: 25px;
+    }
+    .menu {
+        gap: 20px;
+    }
+    .menu button {
+        padding: 0.3125rem 0.625rem;
+    }
+    .img1 {
+        max-width: 40px;
+    }
+    #carrinho {     
+       overflow: hidden;
+       margin: 0 auto;
+       left: 10%;
+       max-width: 90% !important;
+       height: auto;
+       right: 0;
+     }
+        .btn-fechar {
+            margin-top: 20px;
+        }
+}
+
+
+@media (min-width:768px) and (max-width:1000px) {
+    .header {
+        width: 90%;
+    }
+    .conteiner-filtrar input {
+        display: none;
+    }
+    .btn-filtrar {
+        display: none;
+    }
+    .btn-carrinho {
+        max-width: 70px;
+        font-size: 0.9375rem;
+        padding: 0.75rem;
+    }
+    #carrinho {     
+    overflow: hidden;
+    margin: 0 auto;
+ }
 }
