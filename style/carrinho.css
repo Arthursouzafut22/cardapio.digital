@@ -221,6 +221,11 @@ input[type='number']::-webkit-outer-spin-button {
   cursor: pointer;
   width: 100%;
 }
+.btn-comprar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
 .conteiner-final {
   display: flex;
   align-items: center;

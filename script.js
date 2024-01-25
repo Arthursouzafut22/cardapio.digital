@@ -208,3 +208,5 @@ const clickRemove = () => {
   cartCarrinho.classList.remove('ativo');
 };
 btnFechar.addEventListener('click', clickRemove);
+
+

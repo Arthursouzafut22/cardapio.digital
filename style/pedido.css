@@ -1,0 +1,94 @@
+.titlle-finalizar{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.form {
+    padding: 1.875rem 2.5rem;
+    border-radius: 0.625rem;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+    margin: 0 auto;
+}
+.form-control {
+    margin-bottom: 10px;
+    padding-bottom: 0.625rem;
+    position: relative;
+}
+.form-control label {
+    font-size: 1.0625rem;
+    display: inline-block;
+    font-weight: bold;
+    margin-bottom: 5px ;
+}
+.form-control input {
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-size: 1.125rem;
+    width: 95%;
+    padding: 0.9375rem 0.8125rem;
+}
+.form-control img {
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    visibility: hidden;
+}
+.form-control small {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+.form button {
+    background-color:  #f5b841;
+    color: white;
+    display: block;
+    font-weight: 700;
+    padding: 0.875rem 1rem;
+    width: 100%;
+    font-size: 1.125rem;
+    border-radius: 5px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.form-control.success input {
+    border-color: #2ecc71;
+}
+.form-control.error input {
+    border-color: #e74c3c;
+    animation: invalid 0.3s 2;
+}
+.form-control.success img.validation {
+    visibility: visible;
+    color: #2ecc71;
+}
+.form-control.error img.erro {
+    visibility: visible;
+    color: #e74c3c;
+}
+.form-control.error span {
+    font-weight: bold;
+    margin-top: 4px;
+    color: #e74c3c;
+    display: block;
+    animation: invalid 0.3s 2;
+}  
+span {
+    display: none;
+}
+ 
+@keyframes invalid {
+    25% {
+        translate: 6px;
+    }
+    50% {
+        translate: -6px 0; 
+    }
+    75% {
+        translate: 6px 0; 
+    }
+}

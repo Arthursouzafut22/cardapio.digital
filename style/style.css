@@ -4,6 +4,7 @@
 @import url(./cardapio.hambug.css);
 @import url(./carrinho.css);
 @import url(./produtos.css);
+@import url(./pedido.css);
 
 body {
     margin: 0;
