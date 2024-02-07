@@ -7,6 +7,8 @@
     <title>Cardapio online</title>
   </head>
   <body>
+
+
     <header class="header">
       <img src="logos/logo.png" alt="logo" class="img-logo" />
       <div class="conteiner-filtrar">
@@ -20,7 +22,8 @@
         />
       </button>
 
-      <section id="carrinho">
+  
+        <div  id="carrinho">
         <button class="btn-fechar">
           <img src="logos/fechar (1).png" alt="fechar" />
         </button>
@@ -41,12 +44,9 @@
               <div class="totall" id="total"></div>
             </div>
           </div>
-          <button class="btn-comprar"><a href="pedido.html">Finalizar Compra</a></button>
+          <button class="btn-comprar"><a class="linkpedido" href="pedido.html">Finalizar Compra</a></button>
         </div>
-      </section>
-          
-        </div>
-      </section>
+      </div>
     </header>
 
     <nav class="menu">
@@ -66,11 +66,13 @@
         <img class="img1" src="logos/batatas-fritas.png" alt="batata" />Fritas
       </button>
     </nav>
+  
 
     <main class="cardapio">
       <div id="load"></div>
       <div class="cardapio-2" id="cardapio"></div>
     </main>
+  
 
     <section class="produtos-carrinho" id="produtosCarrinhos">
       <div id="DuploCarne">
@@ -103,7 +105,13 @@
         </div>
       </div>
     </section>
-
+    </div>
+  
+   
+    
     <script src="script.js"></script>
+
+
+ 
   </body>
 </html>

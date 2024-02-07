@@ -1,151 +1,148 @@
-
 .cardapio {
-    max-width: 1350px;
-    width: 100%;
-    margin: 35px auto;
-    position: relative;
-    overflow: hidden;
+  max-width: 1350px;
+  width: 100%;
+  margin: 35px auto;
+  position: relative;
+  overflow-x: hidden;
 }
 
 .cardapio-2 {
-    display: grid;
-    max-width: 1300px;
-    width: 100%;
-    grid-template-columns: repeat(auto-fit,minmax(250px, auto));
-    justify-content: center;
-    gap: 35px;
-    align-items: center;
-    align-content: center;
-    margin: 0 auto;
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  justify-content: center;
+  gap: 35px;
+  align-items: center;
+  align-content: center;
+  margin: 0 auto;
 }
 
 @keyframes food {
-    from {
-        opacity: 0;
-        transform: translate3d(-200%,0,0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0,0,0);
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(-200%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
 
 .hamburguer {
-    max-width: 100%;
-    padding: 0 0.5rem;
-    border-radius: 13px;
-    box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
-    animation: food .50s forwards;
-    margin: 0 auto;
+  max-width: 100%;
+  padding: 0 0.5rem;
+  border-radius: 13px;
+  box-shadow: 4px 7px 6px 0px rgba(150, 150, 150, 0.22);
+  animation: food 0.5s forwards;
+  margin: 0 auto;
 }
 
 .hamburguer p {
-    font-size: 1.125rem;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-    margin: 5px;
+  font-size: 1.125rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  margin: 5px;
 }
 .valor {
-    font-weight: bold;
-    font-size: 1.125rem;
+  font-weight: bold;
+  font-size: 1.125rem;
 }
 .img-burguer {
-    max-width: 250px;
-    width: 100%;
-    display: block;
-    margin: 0 auto;
+  max-width: 250px;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 .conteiner-btns {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    padding-bottom: 0.5625rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  padding-bottom: 0.5625rem;
 }
 .conteiner-btns button {
-    display: block;
-    width: 90px;
-    padding: 0.25rem 0.9375rem;
-    border-radius: 10px;
-    cursor: pointer;
-    border: none;
-    outline: none;
-    background-color: #f5b841;
+  display: block;
+  width: 90px;
+  padding: 0.25rem 0.9375rem;
+  border-radius: 10px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #f5b841;
 }
 .img-geral {
-    max-width: 30px;
+  max-width: 30px;
 }
 .cont-burgue {
-    height: 230px;
-    margin: 0 auto;
+  height: 230px;
+  margin: 0 auto;
 }
 .rating {
-    display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
-    align-items: start;
-    width:150px;
-    position: relative;
-    margin-top: 0px;
-    margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  align-items: start;
+  width: 150px;
+  position: relative;
+  margin-top: 0px;
+  margin: 0 auto;
 }
 .rating:not(:checked) > input {
-    position: absolute;
-    appearance: none;
-  }
-  .rating:not(:checked) > label {
-    float: right;
-    cursor: pointer;
-    font-size: 1.875rem;
-    color: #f5b841;
-  }
-  .rating:not(:checked) > label:before {
-    content: '★';
-  }
-  #load {
-    position: absolute;
-    margin: 0 auto;
-    width: 30px;
-    height: 30px;
-    border: 10px solid;
-    border-radius: 50%;
-    color: #f5b841;
-    border-top-color: transparent;
-    animation: load .3s linear infinite;
-    right: 50%;
-    bottom: 85%;
-    display: none;
- }
+  position: absolute;
+  appearance: none;
+}
+.rating:not(:checked) > label {
+  float: right;
+  cursor: pointer;
+  font-size: 1.875rem;
+  color: #f5b841;
+}
+.rating:not(:checked) > label:before {
+  content: "★";
+}
+#load {
+  position: absolute;
+  margin: 0 auto;
+  width: 30px;
+  height: 30px;
+  border: 10px solid;
+  border-radius: 50%;
+  color: #f5b841;
+  border-top-color: transparent;
+  animation: load 0.3s linear infinite;
+  right: 50%;
+  bottom: 85%;
+  display: none;
+}
 
 @keyframes load {
-    from {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(360deg);
+  }
 }
 
-@media (max-width:480px) {
-    .hamburguer {
-        height: auto;
-    }
-    .img-burguer {
-        max-width: 200px !important;
-        margin: 0;
-    }
-    .cont-burgue {
-        height: 185px;
-    }
+@media (max-width: 480px) {
+  .hamburguer {
+    height: auto;
+  }
+  .img-burguer {
+    max-width: 200px !important;
+    margin: 0;
+  }
+  .cont-burgue {
+    height: 185px;
+  }
 }
 
-@media (min-width:481px) and (max-width:767px) {
-    .hamburguer {
-        height: auto;
-    }
-    .img-burguer {
-        max-width: 200px !important;
-        margin: 0;
-    }
-    .cont-burgue {
-        height: 185px;
-    }
+@media (min-width: 481px) and (max-width: 767px) {
+  .hamburguer {
+    height: auto;
+  }
+  .img-burguer {
+    max-width: 200px !important;
+    margin: 0;
+  }
+  .cont-burgue {
+    height: 185px;
+  }
 }
-

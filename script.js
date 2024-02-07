@@ -210,3 +210,4 @@ const clickRemove = () => {
 btnFechar.addEventListener('click', clickRemove);
 
 
+
